@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+<link href="Practice.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="allpages">
+<div>
+<hr style="border-style:solid; border-width:2px; border-color:olive"></hr>
+<h1 style="color:Green;text-align:center">Basal Metabolic Rate</h1>
+<hr style="border-style:solid; border-width:2px; border-color:olive"></hr>
+<img id="image" src="Images/doctor.png" alt="Doctor"></img>
+</div>
+<div id="article">
+      <h1 style="color:Green;text-align:center">Basal Metabolic Rate</h1>
+      <form>
+         <fieldset id="addroptions">
+            <legend><span>Choose an address</span></legend>
+            <label for="homeoption" id="homeaddr">
+               <span>Home</span><br/>
+               1 Main St.<br />
+               Sicilia, MA 02103
+               <input type="radio" id="homeoption" name="shippingaddr" 
+                      onclick="document.getElementById('streetinput').value = '1 Main St.';
+                               document.getElementById('cityinput').value = 'Sicilia';
+                               document.getElementById('stateinput').value = 'MA';
+                               document.getElementById('zipinput').value = '02103';" />
+            </label>
+            <label for="workoption" id="workaddr">
+               <span>Work</span><br/>
+               15 Columbine Ln.<br />
+               Crab City, MA 02104
+               <input type="radio" id="workoption" name="shippingaddr" 
+                      onclick="document.getElementById('streetinput').value = '15 Columbine Ln.';
+                               document.getElementById('cityinput').value = 'Crab City';
+                               document.getElementById('stateinput').value = 'MA';
+                               document.getElementById('zipinput').value = '02104';" />
+            </label>
+         </fieldset>
+          <fieldset id="contactinfo">
+            <label for="streetinput">
+              Street Address
+              <input type="text" id="streetinput" />
+            </label>
+            <label for="cityinput">
+              City
+              <input type="text" id="cityinput" />
+            </label>
+            <label for="stateinput">
+              State
+              <input type="text" id="stateinput" />
+            </label>
+            <label for="zipinput">
+              Zip
+              <input type="text" id="zipinput" />
+            </label>
+          </fieldset>
+     </form>
+   </div>
+   </body>
+
+</html>

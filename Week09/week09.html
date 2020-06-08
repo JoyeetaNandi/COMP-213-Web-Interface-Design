@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<!--created-->
+<html lang="en">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Class example Week09</title>
+<meta content="HTML forms, COMP213" name="description">
+<meta content="Example of using HTML forms" name="description">
+
+<style type="text/css">
+</style>
+
+<link href="Week09style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div id="allpage">
+<header>
+	<img alt="centennialCollegeLogo" height="209" longdesc="CentennialCollege" src="Images/CC50thAnniversary.jpg" width="200">
+	<br><h1>Centennial College-Registration form</h1>
+</header>
+<form action="mailto:jdoe37@my.centennialcollege.ca"method="get">
+	<table style="width: 100%">
+		<tr>
+			<td class="fildLable">First Name:</td>
+			<td><input name="txtFirstName" size="25" tabindex="1" type="text"></td>
+		</tr>
+		<tr>
+			<td class="fildLable">Last Name:</td>
+			<td> <input name="txtLastName" size="25" tabindex="3" type="text"></td>
+		</tr>
+		<tr>
+			<td class="fildLable">Email: </td>
+			<td> <input name="btEmail" size="30" tabindex="5" type="text"></td>
+		</tr>
+		<tr>
+			<td class="fildLable">Creat 
+	Password:
+	</td>
+			<td>
+	<input name="txtCrearPassword" size="16" tabindex="7" type="password"></td>
+		</tr>
+		<tr>
+			<td class="fildLable">Confirm Password:
+	</td>
+			<td>
+	<input name="txtConfirmPassword" size="16" tabindex="9" type="password"></td>
+		</tr>
+		<tr>
+			<td class="fildLable">Gender: </td>
+			<td> 
+			<input name="optGender" tabindex="11" type="radio" value="M" checked="true">M
+			<input name="optGender" tabindex="13" type="radio" value="F">F
+	<input name="optGender" tabindex="15" type="radio" value="X">X</td>
+		</tr>
+		<tr>
+			<td class="fildLable">Education:
+	</td>
+			<td>
+	<input name="optEd" tabindex="17" type="radio" value="Sec" checked="true">Secondary
+	<input name="optEd" tabindex="19" type="radio" value="Coll">College
+	<input name="optEd" tabindex="21" type="radio" value="UGrad">Undergratuate
+	<input name="optEd" tabindex="23" type="radio" value="Grad">Gratuate
+	<input name="optEd" tabindex="25" type="radio" value="Post">Post Gratuate</td>
+		</tr>
+		<tr>
+			<td class="fildLable">Computer Knowledge:</td>
+			<td>
+	<input name="ChkOs" tabindex="27" type="checkbox" value="Os">OS<input name="Chknet" tabindex="29" type="checkbox" value="Net">Networking
+	<input name="ChkPro" tabindex="29" type="checkbox" value="Pro">Programming
+	<input name="ChkWeb" tabindex="31" type="checkbox" value="Web">Web Design<input name="chkDb" type="checkbox" tabindex="33" value="Db">DB</td>
+		</tr>
+		<tr>
+			<td class="fildLable">Select Cources:</td>
+			<td><select multiple="multiple" name="lstCources" size="4">
+			<option value="COmp 100 ">COmp 100 Programming 1</option>
+			<option value="COMP 125 ">COMP 125 Client Side Development</option>
+			<option value="COMP213 ">COMP213 Web Interface Design</option>
+			<option value="COMP 225">COMP 225 System 1</option>
+			<option value="COMP 229 ">COMP 229 Server Site Development</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td class="fildLable">Special Request:: </td>
+			<td>
+			<textarea cols="50" name="txtSpecialRequir" rows="7" tabindex="39">----Please let us know about your special learning needs (closed captioning, note taking, ect)----</textarea></td>
+		</tr>
+		<tr>
+			<td class="fildLable">
+			<input name="btnSubmit" tabindex="41" type="submit" value="Complete Registration"></td>
+			<td>
+			<input name="btnReset" tabindex="43" type="reset" value="Start Again"></td>
+		</tr>
+	</table>
+&nbsp; </form>
+<footer>
+	
+	<p id="copyright"><a href="../index.html">back to index</a></p>
+	<p id="copyright">&copy;&nbsp;Copyright Joyeeta Nandi-COPM213-Week09-Class example</p>
+</footer>
+</div>
+
+</body>
+
+</html>

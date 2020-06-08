@@ -1,0 +1,90 @@
+﻿#allPage {
+	padding: 10px;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #D5ECB3;
+	background-color: #D5ECB3;
+}
+h3 {
+	background-image: url('Images/appleLogo.jpg');
+	background-repeat: no-repeat;
+	background-color: #D5ECB3;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 3em;
+	font-weight: 900;
+	color: #5C743D;
+	padding: 15px 0px 0px 300px;
+	height: 120px;
+}
+h4 {
+	color: #000000;
+}
+.oddRow {
+	background-color: #EFE4AF;
+}
+h1 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 3em;
+	font-weight: 900;
+	color: #5C743D;
+	padding: 15px 0px 0px 300px;
+	height: 68px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #999999;
+	text-shadow: 3px 3px 3px #999999;
+	background-color: #D4ECB2;
+}
+.evenRow {
+	background-color: #7092BF;
+}
+td {
+	vertical-align: top;
+}
+#homePage {
+	vertical-align: bottom;
+	text-align: right;
+	background-color: #D5ECB3;
+	height: o;
+}
+a {
+	text-decoration:none;
+	color: #660066;
+}
+a:hover {
+	background-color: #88FF9F;
+}
+ul {
+	list-style-image: url('Image/aball.gif');
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	color: #000000;
+}
+div {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.newStyle2 {
+}
+#macBook {
+	border: medium dotted #FFEFD5;
+	background-color: #FFEFD5;
+}
+h2 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	color: #5C743D;
+}
+.picButton {
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #999999;
+	border-width: 0px;
+	text-align: right;
+}
+#map {
+	background-color: #EFE4AF;
+}
+

@@ -1,0 +1,93 @@
+﻿body {
+	background-size: 100% 100%;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	/*Serif fonts are better for printing*/
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	/*color: #33333;*/
+	/* black font for printing*/
+	color:black;
+	/*background-image: url('Images/nature-background.jpg');*/
+	/* No poster for print*/
+	background-repeat: no-repeat;
+}
+h2 {
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #999999;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	color: #5C743D;
+	background-color: #D5ECB3;
+	background-image: url('images/trilliumbg.gif');
+	background-repeat: no-repeat;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	padding-left: 30px;
+}
+ul {
+	list-style-image: url('images/trillium.gif');
+}
+footer {
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #999999;
+	background-color: #5C743D;
+	color: white;
+	background-image: url('images/trilliumfoot.gif');
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 80px;
+	padding: 4px;
+}
+footer a {
+	color: white;
+	text-decoration: none;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+footer a:hover {
+	color: #5C743D;
+	background-color: #D5ECB3;
+}
+#copyright {
+	font-size: x-small;
+}
+a {
+	color: #5C743D;
+	text-decoration: none;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+a:hover {
+	color: white;
+	background-color: #5C743D;
+}
+#allPage {
+	border-radius: 15px;
+	padding: 10px;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #E1F3A3;
+	opacity:0.8;
+}
+
+h1 {
+	background-image: url('Images/trilliumminibanner.jpg');
+	background-repeat: no-repeat;
+	background-color: #D5ECB3;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 3em;
+	font-weight: 900;
+	color: #5C743D;
+	padding: 15px 0px 0px 130px;
+	height: 68px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #999999;
+}
+.picButton {
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #999999;
+	border-width: 0px;
+}
+nav
+{
+	display:none;
+}

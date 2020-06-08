@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<!--Created by: Joyeeta Nandi - Created on: Mar 27, 2019-->
+<html lang="en">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Assignment4</title>
+<meta content="HTML form, COMP213" name="keywords">
+<meta content="Assignment of using an HTML form." name="description">
+
+<link href="Assignment4Sryle.css" rel="stylesheet" type="text/css">
+
+
+<style type="text/css">
+.thankyou {
+	text-align: center;
+}
+</style>
+
+
+</head>
+
+<body>
+<div id="allPage">
+<header> <a href="https://www.centennialcollege.ca/">
+ <img src="Images/centennialCollegeLogo.png" alt="Centennial College Logo" style="float:left"> </a>
+	<h1>Centennial College</h1><span>Continuing Education Course/ Instructor Evalution</span>
+	</header>
+
+	<h4 style="height: 30px">&nbsp; Please read each statement carefully and consider each one individually. Give only <strong>one answare</strong> for each question.
+</h4>
+<form action="mailto:jnandi@my.centennialcollege.ca" method="get">
+<fieldset>
+<table style="width: 100%">
+	<tr>
+	<td class="fieldlabel"> <strong>Select your course/code:</strong></td>
+		<td colspan="2">
+		<select name="course" style="width: 700px" tabindex="1">
+		<option>ACCT-110 Accounting Fundamental</option>
+		<option>ACCT-112 Financial Accounting 1</option>
+		<option>ACCT-123 Financial Accounting Concepts</option>
+		<option>BUSN-733 Business Culture and Craft</option>
+		<option>COMP-100 Programming1</option>
+		<option>COMP- 120 Software Enginnering Fundamental</option>
+		<option>COMP-123 Programming2</option>
+		<option>COMP-212 Programming 3</option>
+		<option>COMP-213 Web Interface Design</option>
+		</select></td>
+	</tr>
+	<tr>
+		<td class="fieldlabel"><strong>Semester:</strong></td>
+		<td>&nbsp;
+		<input checked="checked" name="optSem" type="radio" tabindex="3" value="S" size="5">	Fall
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input name="optSem" type="radio" value="W" tabindex="5" size="5"> Winter
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input name="optSem" type="radio" value="S" tabindex="7" size="5">Spring/Summer&nbsp; </td>
+		<td><strong>&nbsp;Year: </strong>
+		<input name="txtSemYr" style="width: 197px" tabindex="9" type="date"></td>	</tr>
+	<tr>
+	<td class="fieldlabel"><strong>Instructor:</strong></td>
+		<td colspan="2"><input name="txtInstractor" type="text" size="25" tabindex="11" required="required" style="width: 700px"></td>
+	</tr>
+</table>
+</fieldset>
+<fieldset>
+<table style="width: 100%">
+	<tr>
+	<td colspan="2">
+	<h4 style="height: 25px">&nbsp;Instructor</h4>
+	<h5>How would you rate the instructor's:</h5></td>
+	</tr>
+	<tr>
+		<td class="fieldlabel" style="width: 500px">1. <strong>Knowledge</strong> of subject? </td>
+		<td>
+			<input name="InstKnow" tabindex="11" type="radio" value="Excellent" checked="checked">Excellent
+			<input name="InstKnow" tabindex="13" type="radio" value="good">Good 
+			<input name="InstKnow" tabindex="15" type="radio" value="good">Fair 
+			<input name="InstKnow" tabindex="17" type="radio" value="good" >Not Satisfactory
+		</td>
+	</tr>
+	<tr>
+		<td class="fieldlabel" style="width: 500px"> 2. <strong>Helpfulness</strong>?</td>
+		<td>
+			<input name="InstHelp" tabindex="19" type="radio" value="Excellent" checked="checked">Excellent
+			<input name="InstHelp" tabindex="21" type="radio" value="good">Good 
+			<input name="InstHelp" tabindex="23" type="radio" value="good">Fair 
+			<input name="InstHelp" tabindex="25" type="radio" value="good" >Not Satisfactory
+		</td>
+	</tr>
+	<tr>
+		<td class="fieldlabel" style="width: 500px"> 3. <strong>Courtesy and respect</strong> for all students?</td>
+		<td>
+			<input name="InstRes" tabindex="27" type="radio" value="Excellent" checked="checked">Excellent
+			<input name="InstRes" tabindex="29" type="radio" value="good">Good 
+			<input name="InstRes" tabindex="31" type="radio" value="good">Fair 
+			<input name="InstRes" tabindex="33" type="radio" value="good" >Not Satisfactory
+		</td>
+	</tr>
+	<tr>
+		<td class="fieldlabel" style="width: 500px"> 4. <strong>Communication</strong> skills? </td>
+		<td><input name="InstComm" tabindex="35" type="radio" value="Excellent" checked="checked">Excellent
+			<input name="InstComm" tabindex="37" type="radio" value="good">Good 
+			<input name="InstComm" tabindex="39" type="radio" value="good">Fair 
+			<input name="InstComm" tabindex="41" type="radio" value="good" >Not Satisfactory 
+		</td>
+	</tr>
+	<tr>
+		<td class="fieldlabel" style="width: 500px"> 5. Overall <strong>performance</strong>?</td>
+		<td> <input name="InstPer" tabindex="43" type="radio" value="Excellent"  checked="checked">Excellent
+			<input name="InstPer" tabindex="45" type="radio" value="good">Good 
+			<input name="InstPer" tabindex="47" type="radio" value="good">Fair 
+			<input name="InstPer" tabindex="49" type="radio" value="good">Not Satisfactory
+		</td>
+	</tr>
+</table>
+	</fieldset>
+<fieldset>
+<table style="width: 100%">
+	<tr>
+		<td colspan="2"><h4 style="height: 25px"> &nbsp; Course</h4></td>
+	</tr>
+	<tr>
+		<td class="fieldlabel" style="width: 500px"> 6. How would you rate the <strong>course materials</strong>? </td>
+		<td><input name="CourRate" tabindex="51" type="radio" value="Excellent" checked="checked">Excellent
+			<input name="CourRate" tabindex="53" type="radio" value="good">Good 
+			<input name="CourRate" tabindex="55" type="radio" value="good">Fair 
+			<input name="CourRate" tabindex="57" type="radio" value="good" >Not Satisfactory
+		</td>
+	</tr>
+	<tr>
+		<td class="fieldlabel" style="width: 500px"> 7. How much did this course meet your <strong>expectation</strong>? </td>
+		<td><input name="CourExp" tabindex="59" type="radio" value="Excellent" checked="checked">Excellent
+			<input name="CourExp" tabindex="61" type="radio" value="good">Good 
+			<input name="CourExp" tabindex="63" type="radio" value="good">Fair 
+			<input name="CourExp" tabindex="65" type="radio" value="good" >Not Satisfactory</td>
+	</tr>
+	<tr>
+		<td class="fieldlabel" style="width: 500px">8. How would you rate this course<strong> (overall)</strong>? </td>
+		<td><input name="CourAll" tabindex="67" type="radio" value="Excellent" checked="checked">Excellent
+			<input name="CourAll" tabindex="69" type="radio" value="good">Good 
+			<input name="CourAll" tabindex="71" type="radio" value="good">Fair 
+			<input name="CourAll" tabindex="73" type="radio" value="good" >Not Satisfactory
+		</td>
+	</tr>
+</table>
+	</fieldset>
+<fieldset>
+<table style="width: 100%">
+	<tr>
+		<td colspan="2"><h4 style="height: 25px">&nbsp; General Information </h4></td>
+	</tr>
+	<tr>
+		<td class="fieldlabel" style="width: 550px">9. Was the coourse outline reviewed/ explained 
+		at the beginning of your course?&nbsp;</td> <td>
+		<input name="optReview" type="radio" checked="checked" tabindex="75" value="Y"> Yes&nbsp;&nbsp;
+		<input name="optReview" type="radio" tabindex="75" value="N"> No&nbsp;&nbsp;
+		<input name="optReview" type="radio" tabindex="77" value="NS"> Not Sure 
+		</td>
+	</tr>
+	<tr>
+		<td class="fieldlabel"style="width: 550px">10. Would you recommend this course to a friend with the same interests?</td>
+	<td>
+		<input name="optRecomm" type="radio" class="auto-style1" checked="checked" tabindex="79" value="y"> Yes&nbsp;
+		<input name="optRecomm" type="radio" tabindex="81" value="n"> No&nbsp;&nbsp;
+		<input name="optRecomm" type="radio" tabindex="83" value="ns"> Not Sure
+	</td>
+	</tr>
+</table>
+	</fieldset>
+<fieldset>
+<table style="width: 100%">
+	<tr>
+		<td colspan="2"><h4 style="height: 25px">&nbsp; Any Other Comments </h4></td>
+	</tr>
+	<tr>
+		<td class="fieldlabel"style="width: 500px">11. What is the best thing about this course?</td>
+		<td>
+		<input name="txtBest" type="text" style="width: 430px" tabindex="85"></td>
+	</tr>
+	<tr>
+		<td class="fieldlabel" style="width: 500px">12. How could we improve this course?</td>
+		<td><input name="txtImp" type="text" style="width: 430px" tabindex="87"></td>
+
+	</tr>
+	<tr>
+		<td class="fieldlabel" style="width: 500px">13. Other:</td>
+		<td>
+		<textarea name="TextArea1" rows="7" style="width: 445px" cols="50" tabindex="89">----Please let us know about your opinion----</textarea></td>
+	</tr>
+</table>
+	</fieldset>
+	<fieldset>
+	<table style="width: 100%">
+		<tr>
+			<td class="fieldlabel" style="width: 480px">
+			<input name="btnSubmit" tabindex="89" type="submit" value="Submit evaluation"></td>
+			<td>
+			<input name="btnReset" tabindex="43" type="reset" value="Start Again"></td>
+		</tr>
+	</table>
+	</fieldset>
+	<h5 class="thankyou">Thank You! We pay attention to your feedback! 
+	<br> Web: <a href="https://www.centennialcollege.ca/continuing%20education">www.centennialcollege.ca/continuing education</a>&nbsp;&nbsp;&nbsp;&nbsp; Email:continuingeducation@centennialcollege.ca
+</h5>
+</form>
+<footer>
+<p>
+<a href="../index.html"><strong>Back to Index</strong></a></p>
+	<p id="copyright">&copy;&nbsp;Copyright Joyeeta Nandi - Assignment4 - COMP213</p>
+</footer>
+
+</div>
+
+</body>
+
+</html>

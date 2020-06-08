@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+
+<!--Created by: Joyeeta Nandi- Created on: May 20, 2019-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment1 COMP-125</title>
+ 
+    <link href="Assignment1Style.css" rel="stylesheet" />
+    <script src="Assignment1.js"> </script>
+    <style type="text/css">
+       
+    </style>
+    </head>
+<body>
+            
+    <div id="container"> 
+        <div id="header"><h1>Basal Metabolic Rate Calculator </h1>
+       </div>
+    <div id="image" style="z-index:2; background-color:darkgray; ">
+    <img src="images/activity.png" style="height:300px;width:250px;" alt= "Daily activities" title="">
+     <label for="result">BMR</label>&nbsp;&nbsp;       
+	              <input id="result" name="result" size="20"type="text"><br /><br />
+<label for="resultI">Calories</label>
+            <input id="resultI" name="result" size="20"type="text">        
+        </div>
+	  
+    <article id="form" style="z-index:3">
+        <!--<form style="z-index:3">-->
+                <table>
+                <!--<table style="height: 400px; width: 450px">-->
+                    <tr class="even">
+                        <td class="fieldLabel">
+                            <input type="radio" id="metric" name="MetImp" value="m">METRIC<br />
+                            [Weight in kg; Height in cm]<br />
+                        </td>
+                        <td class="fieldLabel2"><input type="radio" id="imperial" name="MetImp" value="i">IMPERIAL<br />
+                            [Weight in pounds; Height in inches]</td>
+                        </tr>
+                    <tr class="odd">
+                        <td class="fieldLabel">Age</td>
+                        <td >
+                            <input id="age" class="fieldLabel2" type="number" max:110; min:10; name="age"/></td>
+		             </tr>
+                    
+                    <tr class="even">
+                        <td class="fieldLabel">Gender</td>
+                        <td class="fieldLabel2">
+                            <select id="gender" class="fieldLabel2" name="D1" >
+	                        <option value="F">Female</option>
+	                        <option value="M">Male</option>
+	                        </select></td>
+		             </tr>
+                    <tr class="odd">
+                        <td class="fieldLabel">&nbsp; Height</td>
+                        <td>
+                            <input id="height" type="text" class="fieldLabel2" name="h_cm" /></td>
+                    </tr>
+                    <tr class="even">
+                        <td class="fieldLabel">&nbsp; Weight</td>
+                        <td><input id="weight" class="fieldLabel2" type="text" name="w_kg" /></td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="fieldLabel">Activity Level</td>
+                        <td class="fieldLabel2">
+                            <select id="activity" class="fieldLabel2" >
+	                        <option value="1"> No Exercise </option>
+	                        <option value="2"> Sports 1-3 days</option>
+                            <option value="3"> Sports 3-5 days </option>
+	                        <option value="4"> Sports 5-7 days</option>
+	                        </select>
+                        </td>
+                        </tr>
+                 <tr class="even"> 
+                     <td class="fieldLabel"><label><input name="btnReset" tabindex="43" type="reset" value="Restart"></label></td>
+                     <td class="fieldLabel2"><label><input id="btnCalculate" tabindex="44" type="button" value="Calculate"></label></td>
+
+                 </tr>
+
+                </table>    
+     <!-- </form>-->
+            
+        </article>
+        
+	<footer id="footer" style="z-index:4">
+           <h4> <a href="http://studentweb.cencol.ca/jnandi/">Back to Inbox</a></h4>
+        <h6>&copy;&nbsp;&nbsp;Copyright  - Joyeeta Nandi -Assignment1- COMP125-001 -Summer 2019</h6>
+
+
+</footer>    
+    </div>
+    <script src="Assignment1.js"> </script>
+</body>
+    </html>

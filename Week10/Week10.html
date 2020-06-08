@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<!--Created by: Joyeeta Nandi - Created on: Mar 11, 2019-->
+<html lang="en">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Week 09 Class Example</title>
+<meta content="HTML form, COMP213" name="keywords">
+<meta content="Example of using an HTML form." name="description">
+<link href="Week10Styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="allPage">
+
+<header>
+	<h1>
+	<img alt="Centennial logo" height="209" src="images/CC50thAnniversary.jpg" width="200"><br>
+	Centennial College - Registration Form</h1>
+</header>
+<form action="mailto:jdoe37@my.centennialcollege.ca" method="post">
+<fieldset>
+<legend>Personal Information:</legend>
+	<label for="txtFirstName">First Name:</label>
+	<input id="txtFirstName" name="txtFirstName" size="25" tabindex="1" type="text" required="required"><br>
+	<label for="txtLastName">Last Name:</label>
+	<input id="txtLastName" name="txtLastName" size="25" tabindex="3" type="text" required="required"><br>
+	<label for="txtEmail">Email:</label>
+	<input id ="txtEmail" name="txtEmail" size="30" tabindex="5" type="email" required="required" placeholder="account@domain.com"><br>
+	<label id="txtCreatePWD"> Create PWD:</label>
+	<input id="txtCreatePWD" name="txtCreatePWD" size="16" tabindex="7" type="password"><br>
+	<label for="txtConfirmPWD">Confirm PWD:</label>
+	<input id="txtConfirmPWD" name="txtConfirmPWD" size="16" tabindex="9" type="password">
+	<br><label for="optGrnderM">Gender:</label>
+	<input name="optGenderM" tabindex="11" type="radio" value="M">M
+	<input name="optGender" tabindex="13" type="radio" value="F">F
+	<input name="optGender" tabindex="15" type="radio" value="X">X
+	<br>
+	<label for="txtColor">Favorite color:</label>
+	<input id="txtColor" name="txtColor" tabindex="16" type="color"></fieldset>
+	
+	<br>
+	<fieldset>
+	<legend>Education Information:</legend>
+	<label for="optEd"> Education: </label>
+	<input id="optEd" name="optEd" tabindex="17" type="radio" value="Sec">Secondary
+	<input name="optEd" tabindex="19" type="radio" value="Col">College
+	<input name="optEd" tabindex="21" type="radio" value="Ugrad">Undergrad
+	<input name="optEd" tabindex="23" type="radio" value="Grad">Grad
+	<input name="optEd" tabindex="25" type="radio" value="Pgrad">Pgrad
+	<br>
+	
+	<label for="chkOS">Computer Knowledge:</label>
+	<input name="chkOS" tabindex="27" type="checkbox" value="OS">OS<input name="chkNet" tabindex="29" type="checkbox" value="Net">Networking
+	<input name="chkProg" tabindex="31" type="checkbox" value="Prog">Programming<input name="chkWeb" tabindex="33" type="checkbox" value="Web">Web Design
+	<input name="chkDB" tabindex="35" type="checkbox" value="DB">DB<br>
+	<label for="lstCourses">Select Courses:</label>
+	<select id="lstCourses" multiple="multiple" name="lstCourses" size="4" tabindex="37">
+	<option value="COMP100">COMP100 Programming I</option>
+	<option value="COMP125">COMP125 Client Side Development</option>
+	<option value="COMP213">COMP213 Web Interface Design</option>
+	<option value="COMP225">COMP225 Systems I</option>
+	<option value="COMP229">COMP229 Server Side Development</option>
+	</select><br>
+	<label>Start Date:</label>
+	<input name="txtStartDate" tabindex="38" type="date">
+	<br>
+	<label for="txtSpecialReq">Special Requests:</label>
+	<textarea id="txtSpecialReq" cols="50" name="txtSpecialReq" rows="7" tabindex="39" placeholder="-Please let us know about any special learning need you need support with (note taking, closed captioning, etc.)-"></textarea><br>
+	<label>
+	<input name="btnSubmit" tabindex="41" type="submit" value="Complete Registration Now"></label>
+	<input name="btnReset" tabindex="43" type="reset" value="Start Over Again">
+	</fieldset></form>
+<footer>
+<p>
+<a href="../index.html">Back to Index</a></p>
+	<p id="copyright">&copy;&nbsp;Copyright Joyeeta Nandi - Class Example Week 10 - COMP213</p>
+</footer>
+</div>
+</body>
+
+</html>

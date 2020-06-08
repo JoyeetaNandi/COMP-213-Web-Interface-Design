@@ -1,0 +1,47 @@
+﻿h1 {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size: x-large;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	color: #707000;
+	background-image: url('Images/centennialCollegeLogo.png');
+	background-repeat: no-repeat;
+	height: 100px;
+	background-color: #C3CF21;
+	font-weight: 700;
+	color: #000000;
+	text-align: center;
+}
+#allPage {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	
+	padding: 10px;
+	height: auto;
+}
+h3 {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	color: #660066;
+}
+h4 {
+	color: #660066;
+}
+span {
+	color: #990033;
+	font-size: medium;
+}
+footer a {
+	text-decoration: none;
+	color: #C3CF21;
+	padding-left: 10px;
+}
+
+footer {
+	background-color: #707000;
+	padding: 4px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px gray;
+}

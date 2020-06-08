@@ -1,0 +1,154 @@
+﻿
+#allpages{
+	margin-right: auto;
+	margin-left: auto;
+	width: 980px;
+	position: relative;
+	
+}
+#header
+{
+	background-color: #ACCCFB;
+	background-image: url('Images/header.png');
+	background-repeat: no-repeat;
+	float: left;
+	top: 0px;
+	left: 0px;
+}
+body {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	background-color: PapayaWhip;
+	text-align: justify;
+	font-weight: bold;
+}
+#link{
+	background-color:#A2BCE8;
+	height:30px;
+	color:black;
+	padding-top:5px;
+}
+#link a {
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-decoration: none;
+	
+}
+#link a:hover{
+	background-color:#FFFFFF;
+	color:#3E962B;
+}
+#footer a:hover {
+	background-color:#FFFFFF;
+	color:#3E962B;
+}
+
+#footer {
+	background-color: #ACCCFB;
+	height: 80px;
+}
+#footer a {
+	color:purple;
+	text-decoration: none;
+	padding-right: 25px;
+	padding-left: 20px;
+}
+#copyright {
+	font-size: x-small;
+	padding-left:15px;
+}
+#regionGallary
+ {
+position: relative;
+ }
+#regionGallary ul {
+	list-style-type: none;
+ }
+#regionGallary li {
+	 display: inline; 
+     float: left;
+	 padding: 15px; 
+}
+	 
+#regionGallary img {
+border-style: none;
+ }
+#regionGallary a {
+ 	text-decoration: none;
+     font-style: italic;  
+     color: #333;
+}
+.region{background:white;
+table-layout:fixed;
+border:thin green solid;
+padding:3px;
+
+}
+
+.region a{
+	text-decoration: none;
+}
+.region caption{
+	background:white;font-size:large;border;
+	border:thin green solid;
+	text-align:center;
+	text-transform:capitalize;
+}
+#listingGallery li {
+	 display: inline; 
+     float: left;
+	 padding:10px 50px 10px 5px;
+}
+	 
+#listingGallery img {
+border-style: none;
+ }
+#listingGallery a {
+ 	text-decoration: none;
+    font-style: italic;  
+    text-align:center;
+   }
+#listingGallery span
+	 {display: none; }
+	 
+#listingGallery a:hover span {
+display: block;     
+position: absolute;
+top: 200px;
+left: 200px; 
+text-align: center; 
+}
+h2 {
+	color: #008000;
+	text-align: center;
+}
+h4{
+	padding-left: 10px;
+	text-align: justify;
+	color:green;
+}
+#contact{
+	height:100px;
+}
+#contactForm{
+	height:400px;
+}
+.fieldlabel{
+	text-align: right;
+	vertical-align: top;
+	width: 375px;
+	padding-right:25px
+}
+#content{
+	 position: absolute; width: 980px; height: 550px; left:0px;top:150px;background-color:#D0D8EF;
+}
+#maps{
+	padding-left:100px;
+	padding-top: 30px;
+}
+#references a:hover{
+	background-color:#FFFFFF;
+	color:#3E962B;
+	text-decoration:none;
+}

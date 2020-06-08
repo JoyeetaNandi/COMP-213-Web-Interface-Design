@@ -1,0 +1,51 @@
+﻿body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: gray;
+	background-color: #C0C0C0;
+}
+h3 {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	color: #660066;
+}
+h4 {
+	color: #660066;
+}
+.oddRow {
+	background-color: #88FF9F;
+}
+/* alternate colors in price table*/
+.evenRow {
+	background-color: White;
+}
+td {
+	vertical-align: top;
+}
+#contactUs {
+	vertical-align:bottom;
+	text-align:right
+}
+a {
+	text-decoration:none;
+	color: #660066;
+}
+a:hover {
+	background-color: #FF00FF;
+}
+ul {
+	list-style-image: url('Image/aball.gif');
+}
+.#allPage {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.newStyle2 {
+}
+#phonestable {
+	border: medium dotted #800080;
+	border-style: dotted;
+	border-width: medium;
+	background-color: #E6E6FA;
+}

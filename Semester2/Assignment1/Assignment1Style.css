@@ -1,0 +1,117 @@
+﻿body {
+    background-color:gainsboro;
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    height:500px;
+    /*border: 5px solid #ff6a00;
+    padding: 20px 40px;*/
+    /*border-radius: 5px;*/
+    text-align: center;
+    font-weight:bolder;
+    /*var bmr;
+    var age = document.getElementById("age").value;
+    var gender = document.getElementById("gender").value;
+    var height = document.getElementById("height").value;
+    var weigth = document.getElementById("weigth").value;
+    if (gender == "masc")
+
+{
+    bmr = 66.5 + ( 13.75 * weigth ) + ( 5.003 * height ) – ( 6.755 * age )
+}
+
+else {
+    bmr = 655.1 + ( 9.563 * weigth ) + ( 1.850 * height ) – ( 4.676 * age )
+}*/
+}--//
+
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+    font-weight:bolder;
+    color: darkgreen;
+    background-color: cadetblue;
+    height:50px;
+    padding-top:10px;
+}
+#image{
+    position:absolute;
+    left:0px;
+    top:50px;
+    background-color:darkgrey;
+    width:250px;
+    height:400px;
+}
+#footer{
+    position:absolute;
+    top:425px;
+    left:0px;
+    width:700px;
+    color:red;  
+    height:85px;
+    background-color:cadetblue;
+}
+
+article {
+    position: absolute;
+    left: 250px;
+    background-color: darkgrey;
+    top: 50px;
+    width: 450px;
+    height: 450px;
+    z-index: 3;
+}
+   
+.fieldLabel{
+    text-align: left;
+    vertical-align: central;
+    width: 250px;
+    height:50px; 
+    padding-left:10px;
+
+}
+.fieldLabel2 {
+    width: 200px;
+    padding-left:5px;
+    padding-right:5px;
+    /*height:50px;*/
+}
+.odd{
+    background-color:blueviolet;
+    
+
+}
+.even{
+    background-color:aquamarine;
+}
+a:hover {
+    color: white;
+    background-color: #5C743D;
+}
+#copyright {
+    font-size: x-small;
+    color: navy;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+    footer a:hover {
+        color: #5C743D;
+        background-color: #D5ECB3;
+    }
+    
+
+
+
+
